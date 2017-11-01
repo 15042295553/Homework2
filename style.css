@@ -1,0 +1,43 @@
+.regularForm {
+	width: 50%;
+	min-width: 400px;
+}
+fieldset {
+	line-height: 2em;
+}
+
+.error {
+  color: red;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+caption {
+	font-weight: bold;
+	font-size: large;
+	color: #505050;
+}
+
+th {
+	background-color: #8C8C8C;
+	border: 1px solid #CCCCCC;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 8px;
+	text-align: center;
+}
+
+td {
+	border: 1px solid #CCCCCC;
+	padding: 10px 10px;
+}
+
+td.today {
+	border: 2px solid #CC3300;
+}
+
+tr:nth-child(odd) {
+    background-color: #F3F3F3;
+}
